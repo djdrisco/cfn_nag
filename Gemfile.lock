@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cfn-nag (0.0.0)
+    cfn-nag (0.0.01)
       aws-sdk-s3 (~> 1.60.1)
       cfn-model (= 0.4.28)
       lightly (~> 0.3.2)

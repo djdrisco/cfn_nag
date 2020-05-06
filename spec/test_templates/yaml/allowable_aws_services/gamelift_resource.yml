@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  NewGameLift:
+    Type: AWS::GameLift::Build
+    Properties:
+      Name: 'GameLift Build'
+      OperatingSystem: 'Windows 2012'

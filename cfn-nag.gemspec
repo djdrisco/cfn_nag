@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name          = 'cfn-nag'
   s.license       = 'MIT'
-  s.version       = ENV['GEM_VERSION'] || '0.0.0'
+  s.version       = ENV['GEM_VERSION'] || '0.0.01'
   s.bindir        = 'bin'
   s.executables   = %w[cfn_nag cfn_nag_rules cfn_nag_scan]
   s.authors       = ['Eric Kascic']

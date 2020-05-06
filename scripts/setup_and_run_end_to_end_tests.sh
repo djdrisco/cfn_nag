@@ -41,7 +41,6 @@ echo "installing rspec and simplecov for testing"
 PATH=$PATH:/usr/local/bundle/bin
 gem install rspec --explain -v '~> 3.4' --no-document
 gem install rspec -v '~> 3.4' --no-document
-gem install simplecov -v '~> 0.11' --no-document
 
 echo "begin end-to-end tests..."
 # Execute end-to-end tests
